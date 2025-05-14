@@ -28,211 +28,50 @@
 
 
 
-        <!-- قائمتين منسدلتين -->
-        <div class="dropdowns-container">
-            <!-- قائمة محتوى الكورس -->
-            <div class="dropdown dark-theme">
-                <button class="dropdown-btn" onclick="toggleDropdown('courseContent1')">
-                    المستوى الاول
-                    <i class="arrow"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="https://drive.google.com/file/d/10V-XF3eRlwro_H6ch3QbcN3gZhXd4gLY/view?usp=drive_link"
-                        class="lesson">
-                        <span class="lesson-title">فديو المحاضرة </span>
-                    </a>
-                    <a href="https://drive.google.com/file/d/1-hjJdtpM8bQNARL8Jph45fzdkRJ2IQWS/view?usp=drive_link"
-                        class="lesson">
-                        <span class="lesson-title"> شيت للتدريب بنفسك</span>
-                    </a>
-                    <a href="https://api.whatsapp.com/send/?phone=%2B201272796287&text&type=phone_number&app_absent=0"
-                        class="lesson">
-                        <span class="lesson-title">تواصل مع المدرب</span>
-                    </a>
-                </div>
+        <!-- أزرار المستويات -->
+        <div class="levels-buttons-container" style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin: 2rem 0;">
+            <div style="display: flex; gap: 1rem;">
+                <button class="level-btn" onclick="location.href='level1.html'">المستوى الأول</button>
+                <button class="level-btn" onclick="location.href='level2.html'">المستوى الثاني</button>
             </div>
-
-            <div class="dropdown dark-theme">
-                <button class="dropdown-btn" onclick="toggleDropdown('courseContent2')">
-                   المستوى الثاني
-                    <i class="arrow"></i>
-                </button>
-                <div id="courseContent2" class="dropdown-content">
-                    <a href="https://drive.google.com/file/d/10VoCR4OkR6Lh2E3qc2S3_22_kMwKjWmi/view?usp=drive_link"
-                        class="lesson">
-                        <span class="lesson-title">فديو المحاضرة </span>
-                    </a>
-                    <a href="https://drive.google.com/file/d/1-nOUKZYNzsrEbke-s8-oFpHkq5PDfQ8s/view?usp=drive_link"
-                        class="lesson">
-                        <span class="lesson-title"> شيت للتدريب بنفسك</span>
-                    </a>
-                    <a href="https://api.whatsapp.com/send/?phone=%2B201272796287&text&type=phone_number&app_absent=0"
-                        class="lesson">
-                        <span class="lesson-title">تواصل مع المدرب</span>
-                    </a>
-                </div>
+            <div style="display: flex; gap: 1rem;">
+                <button class="level-btn" onclick="location.href='level3.html'">المستوى الثالث</button>
+                <button class="level-btn" onclick="location.href='level4.html'">المستوى الرابع</button>
             </div>
-
-            <div class="dropdown dark-theme">
-                <button class="dropdown-btn" onclick="toggleDropdown('courseContent3')">
-                  المستوه الثالث
-                    <i class="arrow"></i>
-                </button>
-                <div id="courseContent3" class="dropdown-content">
-                    <a href="https://drive.google.com/file/d/10fF0GZJEBp8IVC-vJKcg4XSn-wQfOwUW/view?usp=drive_link"
-                        class="lesson">
-                        <span class="lesson-title">فديو المحاضرة </span>
-                    </a>
-                    <a href="https://drive.google.com/file/d/1-tefKi2srbnhpmXgOyAeyRLdcj8_9vMa/view?usp=drive_link"
-                        class="lesson">
-                        <span class="lesson-title"> شيت للتدريب بنفسك</span>
-                    </a>
-                    <a href="https://api.whatsapp.com/send/?phone=%2B201272796287&text&type=phone_number&app_absent=0"
-                        class="lesson">
-                        <span class="lesson-title">تواصل مع المدرب</span>
-                    </a>
-                </div>
+            <div style="display: flex; gap: 1rem;">
+                <button class="level-btn" onclick="location.href='level5.html'">المستوى الخامس</button>
+              
             </div>
-
-            <div class="dropdown dark-theme">
-                <button class="dropdown-btn" onclick="toggleDropdown('courseContent4')">
-                    المستوى الرابع
-                    <i class="arrow"></i>
-                </button>
-                <div id="courseContent4" class="dropdown-content">
-                    <a href="https://drive.google.com/file/d/10fYDszSGv3MKAh8_XFkt2EyL9WtfCEZT/view?usp=drive_link"
-                        class="lesson">
-                        <span class="lesson-title">فديو المحاضرة </span>
-                    </a>
-                    <a href="https://drive.google.com/file/d/1-uK9vwwhEl1R-wZd4zcStKVROwq-IDAL/view?usp=drive_link"
-                        class="lesson">
-                        <span class="lesson-title"> شيت للتدريب بنفسك</span>
-                    </a>
-                    <a href="https://api.whatsapp.com/send/?phone=%2B201272796287&text&type=phone_number&app_absent=0"
-                        class="lesson">
-                        <span class="lesson-title">تواصل مع المدرب</span>
-                    </a>
-                </div>
+            <hr style="width: 100%; border: 1px solid #ccc; margin: 2rem 0;">
+            <div style="display: flex; gap: 1rem;">
+                  <button class="level-btn" onclick="location.href='level6.html'">المستوى السادس</button>
+                <button class="level-btn" onclick="location.href='level7.html'">المستوى السابع</button>
+                <button class="level-btn" onclick="location.href='level8.html'">المستوى الثامن</button>
             </div>
-
-            <div class="dropdown dark-theme">
-                <button class="dropdown-btn" onclick="toggleDropdown('courseContent5')">
-                   المستوى الخامس
-                    <i class="arrow"></i>
-                </button>
-                <div id="courseContent5" class="dropdown-content">
-                    <a href="https://drive.google.com/file/d/10fkIyhDLlFrOMvPl8crNkc6QZnowy376/view?usp=drive_link"
-                        class="lesson">
-                        <span class="lesson-title">فديو المحاضرة </span>
-                    </a>
-                    <a href="https://drive.google.com/file/d/106Cg2--v4joSODi9g5NBLj_ETQgZYdkW/view?usp=drive_link"
-                        class="lesson">
-                        <span class="lesson-title"> شيت للتدريب بنفسك</span>
-                    </a>
-                    <a href="https://api.whatsapp.com/send/?phone=%2B201272796287&text&type=phone_number&app_absent=0"
-                        class="lesson">
-                        <span class="lesson-title">تواصل مع المدرب</span>
-                    </a>
-                </div>
+            <div style="display: flex; gap: 1rem;">
+                <button class="level-btn" onclick="location.href='level9.html'">المستوى التاسع</button>
+                <button class="level-btn" onclick="location.href='level10.html'">المستوى العاشر</button>
             </div>
-<hr>
-            <div class="dropdown dark-theme">
-                <button class="dropdown-btn" onclick="toggleDropdown('courseContent6')">
-                    المستوى السادس
-                    <i class="arrow"></i>
-                </button>
-                <div id="courseContent6" class="dropdown-content">
-                    <a href="https://drive.google.com/file/d/10i5luwgpr78F7XaT_IUt4jXFvPNvTzUC/view?usp=drive_link"
-                        class="lesson">
-                        <span class="lesson-title">فديو المحاضرة </span>
-                    </a>
-                    <a href="https://drive.google.com/file/d/108inkabS5ebZdo0HpVpc-NYPJQAAhG3r/view?usp=drive_link"
-                        class="lesson">
-                        <span class="lesson-title"> شيت للتدريب بنفسك</span>
-                    </a>
-                    <a href="https://api.whatsapp.com/send/?phone=%2B201272796287&text&type=phone_number&app_absent=0"
-                        class="lesson">
-                        <span class="lesson-title">تواصل مع المدرب</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="dropdown dark-theme">
-                <button class="dropdown-btn" onclick="toggleDropdown('courseContent7')">
-                    المستوى السابع
-                    <i class="arrow"></i>
-                </button>
-                <div id="courseContent7" class="dropdown-content">
-                    <a href="https://drive.google.com/file/d/10jsL80wqdvKGLALzHq14Vi0YMdKzYEKo/view?usp=drive_link"
-                        class="lesson">
-                        <span class="lesson-title">فديو المحاضرة </span>
-                    </a>
-                    <a href="https://drive.google.com/file/d/10KmB10q5125okySDfUdVuxEXmRNOsNgw/view?usp=drive_link"
-                        class="lesson">
-                        <span class="lesson-title"> شيت للتدريب بنفسك</span>
-                    </a>
-                    <a href="https://api.whatsapp.com/send/?phone=%2B201272796287&text&type=phone_number&app_absent=0"
-                        class="lesson">
-                        <span class="lesson-title">تواصل مع المدرب</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="dropdown dark-theme">
-                <button class="dropdown-btn" onclick="toggleDropdown('courseContent8')">
-                   المستوى الثامن
-                    <i class="arrow"></i>
-                </button>
-                <div id="courseContent8" class="dropdown-content">
-                    <a href="https://drive.google.com/file/d/10jsnHC7kz2E_1Xz9RwZzL8vN-YGhdMua/view?usp=drive_link"
-                        class="lesson">
-                        <span class="lesson-title">فديو المحاضرة </span>
-                    </a>
-                    <a href="https://drive.google.com/file/d/10RJOf_F-s4s942L9ny7zmUYX3C1T9A8n/view?usp=drive_link"
-                        class="lesson">
-                        <span class="lesson-title"> شيت للتدريب بنفسك</span>
-                    </a>
-                    <a href="https://api.whatsapp.com/send/?phone=%2B201272796287&text&type=phone_number&app_absent=0"
-                        class="lesson">
-                        <span class="lesson-title">تواصل مع المدرب</span>
-                    </a>
-                </div>
-<div class="dropdown dark-theme">
-    <button class="dropdown-btn" onclick="toggleDropdown('courseContent8')">
-      المستوى التاسع
-        <i class="arrow"></i>
-    </button>
-    <div id="courseContent8" class="dropdown-content">
-        <a href="https://drive.google.com/file/d/10jsnHC7kz2E_1Xz9RwZzL8vN-YGhdMua/view?usp=drive_link" class="lesson">
-            <span class="lesson-title">فديو المحاضرة </span>
-        </a>
-        <a href="https://drive.google.com/file/d/10RJOf_F-s4s942L9ny7zmUYX3C1T9A8n/view?usp=drive_link" class="lesson">
-            <span class="lesson-title"> شيت للتدريب بنفسك</span>
-        </a>
-        <a href="https://api.whatsapp.com/send/?phone=%2B201272796287&text&type=phone_number&app_absent=0"
-            class="lesson">
-            <span class="lesson-title">تواصل مع المدرب</span>
-        </a>
-    </div>
-<div class="dropdown dark-theme">
-    <button class="dropdown-btn" onclick="toggleDropdown('courseContent8')">
-        المستوى العاشر
-        <i class="arrow"></i>
-    </button>
-    <div id="courseContent8" class="dropdown-content">
-        <a href="https://drive.google.com/file/d/10jsnHC7kz2E_1Xz9RwZzL8vN-YGhdMua/view?usp=drive_link" class="lesson">
-            <span class="lesson-title">فديو المحاضرة </span>
-        </a>
-        <a href="https://drive.google.com/file/d/10RJOf_F-s4s942L9ny7zmUYX3C1T9A8n/view?usp=drive_link" class="lesson">
-            <span class="lesson-title"> شيت للتدريب بنفسك</span>
-        </a>
-        <a href="https://api.whatsapp.com/send/?phone=%2B201272796287&text&type=phone_number&app_absent=0"
-            class="lesson">
-            <span class="lesson-title">تواصل مع المدرب</span>
-        </a>
-    </div>
-
-
+        </div>
+        <style>
+        .level-btn {
+            font-family: 'Cairo', sans-serif;
+            font-size: 1.1rem;
+            padding: 1rem 2rem;
+            background: #222;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .level-btn:hover {
+            background: #444;
+        }
+        .levels-buttons-container > div {
+            margin-bottom: 1rem;
+        }
+        </style>
 
             </div>
         </div>
